@@ -1,6 +1,55 @@
 # Changelog
 
+## 0.9.0alpha3
+
+### :warning: Breaking changes
+
+ No breaking changes
+
+### :tada: Features
+
+- Support download analytic products. (Please try `$ axelglobe request-download --help`.)
+  - You can request to download analytic products like the followings.
+
+  ```bash
+  $ axelglobe request-download --view-id '${SOME_VIEW_ID}' \
+  --dates '2019-11-20' \
+  --max-cloud-rate 7 \
+  --bundle-compression 'TAR' \
+  --product-format 'GEO_TIFF_NO_COMPRESSION' \
+  --bundle-type 'ANALYTIC'
+  ```
+
+  - The diff of `$ axelglobe request-download --help` between `0.9.0alpha2` and `0.9.0alpha3` is like the followings.
+
+  ```diff
+  $ axelglobe request-download --help
+
+  axelglobe request-download
+
+  Request to create bundles to download
+
+  Options:
+    --version                  Show version number                       [boolean]
+    -h, --help                 Show help                                 [boolean]
+    ...
+    --bundle-type              The type of the product bundle. You can use this
+                               option for specifying the purpose of the product
+                               bundle.
+  -                                [string] [choices: "VISUAL"] [default: "VISUAL"]
+  +                    [string] [choices: "VISUAL", "ANALYTIC"] [default: "VISUAL"]
+  ```
+
+### :wrench: Fix
+
+ No major fixes
+
+### :+1: Misc
+
+ No major updates
+
 ## [0.9.0alpha2](https://github.com/Axelspace/axelglobe-cli/milestone/1?closed=1)
+
 
 ### :warning: Breaking changes
 
