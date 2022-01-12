@@ -1,5 +1,24 @@
 # Changelog
 
+## 0.9.0alpha5
+
+### :warning: Breaking changes
+
+ No breaking changes.
+
+### :tada: Features
+
+ No feature updates.
+
+### :wrench: Fix
+
+- Increase heap memory size to deal with a large size of file.
+
+### :+1: Misc
+
+- Update libraries
+
+
 ## [0.9.0alpha4](https://github.com/Axelspace/axelglobe-cli/milestone/2?closed=1)
 
 ### :warning: Breaking changes
