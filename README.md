@@ -1,6 +1,6 @@
 axelglobe-cli
 ===
 
-Status: **Alpha**
+Status: **Deprecated**
 
- At the moment, this project is for only limited partners. Until releasing version 1.0.0, there will be some breaking changes.
+ Axelspace stopped supporting this tool.
